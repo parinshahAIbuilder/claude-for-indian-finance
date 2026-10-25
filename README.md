@@ -84,7 +84,14 @@ Some skills also live in their own repos with more documentation: [indian-compli
 - Tally Prime workflows (close, GSTR-2B matching, ageing)
 - GST and income-tax notice replies
 - Board pack and investor presentation builder
-- Companies Act board and shareholder resolutions
+
+## Companion: Indian legal
+
+For contracts, leases, SHA / ESOP documents, Companies Act resolutions and FEMA / RBI compliance, use [Claude for Legal: India Edition](https://github.com/parinshahAIbuilder/claude-for-legal-india):
+
+```
+/plugin marketplace add parinshahAIbuilder/claude-for-legal-india
+```
 
 Ideas and pull requests are welcome: see [CONTRIBUTING](CONTRIBUTING.md). If this saves your team time, a ⭐ helps other finance teams find it.
 

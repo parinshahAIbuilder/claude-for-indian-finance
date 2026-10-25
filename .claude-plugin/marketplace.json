@@ -1,0 +1,36 @@
+{
+  "name": "claude-for-indian-finance",
+  "owner": {
+    "name": "Parin Shah"
+  },
+  "metadata": {
+    "description": "Claude plugins for Indian finance, accounts and listed-company compliance",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "listed-company-cfo",
+      "displayName": "Listed Company CFO",
+      "source": "./plugins/listed-company-cfo",
+      "description": "SEBI LODR disclosure desk, results-day checklist, IPO offer document review, annual report review and review markup for NSE / BSE listed companies"
+    },
+    {
+      "name": "financial-reporting",
+      "displayName": "Financial Reporting",
+      "source": "./plugins/financial-reporting",
+      "description": "Trial balance to audit-ready financial statements (Ind AS, AS, IFRS, US GAAP) and Ind AS 116 lease accounting with the IGAAP bridge"
+    },
+    {
+      "name": "finance-operations",
+      "displayName": "Finance Operations",
+      "source": "./plugins/finance-operations",
+      "description": "Indian F&A close: GSTR-2B ITC reconciliation, TDS audit, MSME 43B(h), bank reconciliation, trial balance close gate, budget vs actual, receivables ECL, journal entry testing"
+    },
+    {
+      "name": "debt-and-treasury",
+      "displayName": "Debt & Treasury",
+      "source": "./plugins/debt-and-treasury",
+      "description": "CMA data and MPBF for bank loans, NCD interest registers with TDS, DSCR, covenant monitoring and credit rating preparation"
+    }
+  ]
+}

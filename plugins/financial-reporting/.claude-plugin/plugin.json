@@ -1,0 +1,15 @@
+{
+  "name": "financial-reporting",
+  "version": "0.1.0",
+  "description": "Trial balance to audit-ready financial statements (Ind AS, AS, IFRS, US GAAP) and Ind AS 116 lease accounting with the IGAAP bridge",
+  "author": {
+    "name": "Parin Shah",
+    "url": "https://github.com/parinshahAIbuilder"
+  },
+  "license": "MIT",
+  "keywords": [
+    "india",
+    "finance",
+    "claude-skills"
+  ]
+}

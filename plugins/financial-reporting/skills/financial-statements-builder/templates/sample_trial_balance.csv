@@ -1,0 +1,32 @@
+entity,ledger_code,ledger_name,erp_account_type,closing_balance
+ParentCo,1001,Equity Share Capital,Equity,-1000000
+ParentCo,1002,Retained Earnings,Equity,-250000
+ParentCo,1003,Securities Premium,Equity,-400000
+ParentCo,2001,HDFC Term Loan,Long Term Liability,-600000
+ParentCo,2002,Lease Liability,Long Term Liability,-300000
+ParentCo,2003,Sundry Creditors - ABC Supplies,Accounts Payable,-120000
+ParentCo,2004,Sundry Creditors - XYZ Traders,Accounts Payable,15000
+ParentCo,2005,TDS Payable,Other Current Liability,-18000
+ParentCo,2006,GST Output IGST,Other Current Liability,-42000
+ParentCo,2007,Provision for Gratuity,Other Current Liability,-35000
+ParentCo,3001,Furniture and Fixtures,Fixed Asset,900000
+ParentCo,3002,Accumulated Depreciation - Furniture,Fixed Asset,-180000
+ParentCo,3003,Right of Use Asset,Fixed Asset,320000
+ParentCo,3004,Rent Deposit Paid,Other Current Asset,250000
+ParentCo,3005,Sundry Debtors - Client One,Accounts Receivable,410000
+ParentCo,3006,Sundry Debtors - Client Two,Accounts Receivable,-25000
+ParentCo,3007,HDFC Bank Current A/c,Bank,385000
+ParentCo,3008,HDFC Bank Current Ac,Bank,0
+ParentCo,3009,GST Input Credit,Other Current Asset,64000
+ParentCo,3010,Suspense Account,Other Current Asset,12000
+ParentCo,4001,Seat Revenue,Income,-1800000
+ParentCo,4002,Interest Income on FD,Other Income,-22000
+ParentCo,5001,Salaries and Wages,Expense,520000
+ParentCo,5002,Rent Expense,Expense,310000
+ParentCo,5003,Electricity Charges,Expense,96000
+ParentCo,5004,Depreciation,Expense,180000
+ParentCo,5005,Interest on Term Loan,Expense,72000
+ParentCo,5006,Interest on Lease Liability,Expense,28000
+ParentCo,5007,Housekeeping Expenses,Expense,41000
+ParentCo,5008,Current Tax,Expense,119000
+ParentCo,3011,Fixed Deposit - 6 months,Other Current Asset,1070000

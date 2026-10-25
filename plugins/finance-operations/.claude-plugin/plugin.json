@@ -1,0 +1,15 @@
+{
+  "name": "finance-operations",
+  "version": "0.1.0",
+  "description": "Indian F&A close: GSTR-2B ITC reconciliation, TDS audit, MSME 43B(h), bank reconciliation, trial balance close gate, budget vs actual, receivables ECL, journal entry testing",
+  "author": {
+    "name": "Parin Shah",
+    "url": "https://github.com/parinshahAIbuilder"
+  },
+  "license": "MIT",
+  "keywords": [
+    "india",
+    "finance",
+    "claude-skills"
+  ]
+}

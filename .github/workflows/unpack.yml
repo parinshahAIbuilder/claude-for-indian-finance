@@ -1,0 +1,22 @@
+name: unpack-bundle
+on:
+  push:
+    paths: ['bundle.zip', '.github/workflows/unpack.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack bundle.zip into the repo
+        run: |
+          test -f bundle.zip || { echo "no bundle"; exit 0; }
+          unzip -o bundle.zip -d .
+          git rm -q bundle.zip
+          git config user.name "parinshahAIbuilder"
+          git config user.email "parinshahAIbuilder@users.noreply.github.com"
+          git add -A -- . ':!.github'
+          git commit -m "Add Claude for Indian Finance plugins v0.1.0"
+          git push

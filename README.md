@@ -95,6 +95,10 @@ For contracts, leases, SHA / ESOP documents, Companies Act resolutions and FEMA 
 
 Ideas and pull requests are welcome: see [CONTRIBUTING](CONTRIBUTING.md). If this saves your team time, a ⭐ helps other finance teams find it.
 
+## Privacy
+
+These plugins contain only skills and slash commands. They have no MCP servers, make no network calls of their own, and collect, store or send no data. Files you give Claude (financial statements, contracts, registers) are read in your own Claude session and stay under your control. Nothing is sent to the author or any third party. Questions: open an issue on this repository.
+
 ## Author
 
 [Parin Shah](https://www.linkedin.com/in/parinshah-cfo), CFO | CA (ICAI) | CPA (AICPA). MIT licensed.
